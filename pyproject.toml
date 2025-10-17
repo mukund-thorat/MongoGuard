@@ -3,11 +3,11 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "MongoGurad"
-version = "0.1.0"
+name = "mongoguard"
+version = "0.1.1"
 description = "An optimistic and efficient CRUD wrapper for MongoDB."
 readme = "README.md"
-authors = [{ name="Your Name", email="youremail@example.com" }]
+authors = [{ name="Mukund Thorat", email="mukundthorat.official@gmail.com" }]
 license = { text = "MIT" }
 keywords = ["mongodb", "pydantic", "crud", "database", "python"]
 classifiers = [
@@ -21,5 +21,5 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/MongoGurad"
-Issues = "https://github.com/yourusername/MongoGurad/issues"
+Homepage = "https://github.com/mukund-thorat"
+Issues = "https://github.com/mukund-thorat/mongoguard/issues"

@@ -1,3 +1,6 @@
+# python
+# File: `mongoguard/mongoguard.py`
+
 from typing import Any
 
 import pymongo

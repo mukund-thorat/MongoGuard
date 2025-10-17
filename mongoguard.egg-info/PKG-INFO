@@ -1,0 +1,25 @@
+Metadata-Version: 2.4
+Name: mongoguard
+Version: 0.1.1
+Summary: An optimistic and efficient CRUD wrapper for MongoDB.
+Author-email: Mukund Thorat <mukundthorat.official@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/mukund-thorat
+Project-URL: Issues, https://github.com/mukund-thorat/mongoguard/issues
+Keywords: mongodb,pydantic,crud,database,python
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pymongo>=4.0.0
+Requires-Dist: pydantic>=2.0.0
+Dynamic: license-file
+
+# MongoGuard
+
+A simple, optimistic, and efficient CRUD layer for MongoDB.
+
+## Installation
+```bash
+pip install mongoguard
