@@ -1,8 +1,8 @@
-<p style="text-align: center;">
+<p align="center">
   <img src="https://raw.githubusercontent.com/mukund-thorat/MongoGuard/472509e283a7065a3bd3830b540cdd3121ca2711/res/mongoguard.svg" alt="Medusa Logo" width="120"/>
 </p>
 
-<h1 style="text-align: center;">MongoGuard</h1>
+<h1 align="center">MongoGuard</h1>
 
 > A lightweight, optimistic, and efficient CRUD layer for MongoDB — built with safety, validation, built-in logging, and error handling, all designed for simplicity and reliability.
 
