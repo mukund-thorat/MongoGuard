@@ -1,2 +1,7 @@
 # MongoGuard
-Optimistic and efficient CRUD wrapper for MongoDB with built-in Pydantic validation and safe error handling
+
+A simple, optimistic, and efficient CRUD layer for MongoDB.
+
+## Installation
+```bash
+pip install mongoguard

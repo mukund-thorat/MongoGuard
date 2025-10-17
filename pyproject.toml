@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "MongoGurad"
+version = "0.1.0"
+description = "An optimistic and efficient CRUD wrapper for MongoDB."
+readme = "README.md"
+authors = [{ name="Your Name", email="youremail@example.com" }]
+license = { text = "MIT" }
+keywords = ["mongodb", "pydantic", "crud", "database", "python"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    "pymongo>=4.0.0",
+    "pydantic>=2.0.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/MongoGurad"
+Issues = "https://github.com/yourusername/MongoGurad/issues"
