@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mongoguard"
-version = "0.1.1"
+version = "0.1.2"
 description = "An optimistic and efficient CRUD wrapper for MongoDB."
 readme = "README.md"
 authors = [{ name="Mukund Thorat", email="mukundthorat.official@gmail.com" }]
@@ -19,7 +19,10 @@ dependencies = [
     "pymongo>=4.0.0",
     "pydantic>=2.0.0"
 ]
-
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["mongoguard*"]
+exclude = ["res*"]
 [project.urls]
 Homepage = "https://github.com/mukund-thorat"
 Issues = "https://github.com/mukund-thorat/mongoguard/issues"
