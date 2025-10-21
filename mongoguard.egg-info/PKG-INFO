@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: mongoguard
-Version: 0.1.5
+Version: 0.1.6
 Summary: An optimistic and efficient CRUD wrapper for MongoDB.
 Author-email: Mukund Thorat <mukundthorat.official@gmail.com>
 License: MIT

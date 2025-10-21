@@ -2,9 +2,11 @@ LICENSE
 README.md
 pyproject.toml
 mongoguard/__init__.py
+mongoguard/log_manager.py
 mongoguard/mongoguard.py
 mongoguard.egg-info/PKG-INFO
 mongoguard.egg-info/SOURCES.txt
 mongoguard.egg-info/dependency_links.txt
 mongoguard.egg-info/requires.txt
 mongoguard.egg-info/top_level.txt
+test/test.py
